@@ -88,10 +88,12 @@ class _UserListPageState extends State<UserListPage> {
             itemBuilder: (_, index) {
               var user = users[index];
               return Container(
+                margin: EdgeInsets.all(5),
                 decoration: BoxDecoration(
+                    color: Color.fromARGB(255, 135, 54, 202),
                     border: Border.all(
                       width: 1,
-                      color: Color.fromARGB(255, 131, 19, 223),
+                      color: Color(0xFF8313DF),
                     ),
                     borderRadius: BorderRadius.circular(20)),
                 padding: EdgeInsets.all(8),
